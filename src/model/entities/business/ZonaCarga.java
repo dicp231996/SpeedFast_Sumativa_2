@@ -108,4 +108,11 @@ public class ZonaCarga {
     public synchronized boolean estaVacia() {
         return pedidosConfirmados.isEmpty();
     }
+
+    // Devuelve una copia del registro histórico completo (todos los pedidos
+    // que han pasado por la zona de carga, sin importar su estado actual).
+    // Se usa, por ejemplo, para mostrarlos en la interfaz gráfica.
+    public synchronized ArrayList<Pedido> listarRegistrados() {
+        return new ArrayList<>(pedidosRegistrados);
+    }
 }

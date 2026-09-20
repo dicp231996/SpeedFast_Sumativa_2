@@ -98,3 +98,6 @@ PedidoExpress;EXP-030;Av. José Pedro Alessandri 4375, Quilicura;2.5
 PedidoExpress;EXP-031;Av. Brasil 1562, Maipú;3.4
 PedidoExpress;EXP-032;Av. Apoquindo 772, Quinta Normal;3.0
 PedidoExpress;EXP-033;Vicuña Mackenna 4341, Ñuñoa;2.4
+PedidoEncomienda;ENC-034;Gonzalo Bulnes 2544;7.0;2.5
+PedidoExpress;EXP-034;Tacora 2573;3.0
+PedidoEncomienda;ENC-035;General Prieto 1430;7.5;5.0
